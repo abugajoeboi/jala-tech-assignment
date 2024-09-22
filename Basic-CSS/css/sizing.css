@@ -1,0 +1,35 @@
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+.box-pixels {
+    width: 300px; /* Width in pixels */
+    height: 150px; /* Height in pixels */
+    background-color: #3498db; /* Blue */
+}
+
+.box-percentage {
+    width: 50%; /* Width in percentage */
+    height: 30%; /* Height in percentage */
+    background-color: #e74c3c; /* Red */
+}

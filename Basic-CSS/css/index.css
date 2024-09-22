@@ -1,0 +1,18 @@
+/* Set the background color and image for the entire page */
+body {
+    background-color: #f0f0f0; /* Light grey background color */
+    background-image: url('/image/co3.jpg'); /* Replace with the path to your image */
+    background-attachment: fixed; /* Fixes the background image so it doesn't scroll */
+    background-size: cover; /* Makes sure the image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+/* Style for content to make it look nice */
+.content {
+    text-align: center; /* Centers text inside the content */
+    padding: 50px; /* Adds padding around the content */
+}

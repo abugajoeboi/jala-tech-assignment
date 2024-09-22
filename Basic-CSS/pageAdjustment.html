@@ -1,0 +1,101 @@
+<!-- 1. A page which specify a black border for table and if hover on it, page should change 
+it's colour.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pagaAdjustment.css">
+</head>
+<body>
+    <h1>Table Hover Effect Example</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <br><br>
+
+<p>  
+2. Apply different visibility by an element (visibility: hidden, visible, collapse) and use 
+different types of display for an element (display: none, inline, block, contents, list-item) </p>
+
+
+  <div class="block" style="background-color: lightblue;">Block Element</div>
+  <div class="none" style="background-color: lightcoral;">This will not be displayed</div>
+  <div class="inline" style="background-color: lightgreen;">Inline Element 1</div>
+  <div class="inline" style="background-color: lightyellow;">Inline Element 2</div>
+  <div class="hidden" style="background-color: lightgray;">Hidden Element (still takes space)</div>
+  <div class="visible" style="background-color: lightpink;">Visible Element</div>
+  <div class="collapse" style="background-color: lightseagreen;">Collapse Element (collapses if used in a table)</div>
+  <ul class="list-item">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+  </ul>
+  <div class="contents" style="background-color: lightgoldenrodyellow;">
+    <p>This is displayed as if it were a direct child of the parent.</p>
+    <p>Its container's styles are not applied to it.</p>
+  </div>
+
+  <br><br>
+
+
+  <p>3. A long page which should have two links "click to go to bottom of page" and "click to 
+go to top of page" . Also set their scroll-behavior to scroll smoothly. </p>
+
+<br><br>
+
+    <!-- Navigation Links -->
+    <a href="#bottom" class="scroll-link bottom">Click to go to bottom of page</a>
+    <a href="#top" class="scroll-link">Click to go to top of page</a>
+
+    <!-- Page Content -->
+    <div id="top"></div> <!-- Top of the page marker -->
+    <div class="content">
+        <h1>Long Page Content</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <!-- More content -->
+    </div>
+    <div id="bottom"></div> <!-- Bottom of the page marker -->
+
+
+
+
+    <br><br>
+
+
+    <p> 
+        4. Add padding and margin with different size and understand the difference between 
+        them. </p>
+
+
+        <br><br>
+
+  <div class="box">Hello World</div>
+    
+</body>
+</html>

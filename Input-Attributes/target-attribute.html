@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Target Attribute</title>
+   
+</head>
+<body>
+
+    <h2>Web Page with Target Attribute Examples</h2>
+
+    <!-- Links with target attribute -->
+    <h3>Anchor Tags with target attribute:</h3>
+    <p>
+        <a href="https://www.google.com" target="_blank">Open Google in a New Tab</a>
+        <a href="https://www.wikipedia.org" target="_self">Open Wikipedia in the Same Tab</a>
+        <a href="https://www.youtube.com" target="_parent">Open YouTube (Parent Frame)</a>
+        <a href="https://www.github.com" target="_top">Open GitHub (Entire Window)</a>
+    </p>
+
+    <!-- Links that open in an iframe -->
+    <h3>Open Links in an Iframe:</h3>
+    <p>
+        <a href="https://www.example.com" target="iframe_example">Open Example.com in Iframe</a>
+        <a href="https://www.mozilla.org" target="iframe_example">Open Mozilla.org in Iframe</a>
+    </p>
+
+    <!-- Iframe for displaying target link content -->
+    <iframe name="iframe_example"></iframe>
+
+    <!-- Form with target attribute -->
+    <h3>Form with Target Attribute:</h3>
+    <form action="https://www.example.com" method="GET" target="_blank">
+        <label for="search">Search Example Site:</label>
+        <input type="text" id="search" name="q" placeholder="Enter a search term">
+        <input type="submit" value="Search">
+    </form>
+
+</body>
+</html>

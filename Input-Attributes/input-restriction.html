@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Input Restrictions</title>
+  
+</head>
+<body>
+
+    <h2>Form with Input Restrictions</h2>
+
+    <form action="/submit" method="POST">
+
+        <!-- Disabled input -->
+        <label for="disabledInput">Disabled Input (Text):</label>
+        <input type="text" id="disabledInput" name="disabledInput" value="Can't edit this" disabled><br>
+
+        <!-- Number input with min and max -->
+        <label for="age">Age (min 18, max 60):</label>
+        <input type="number" id="age" name="age" min="18" max="60" required><br>
+
+        <!-- Text input with maxlength and size -->
+        <label for="username">Username (max 10 characters):</label>
+        <input type="text" id="username" name="username" maxlength="10" size="20" placeholder="Enter username" required><br>
+
+        <!-- Readonly input -->
+        <label for="readonlyInput">Readonly Input (Text):</label>
+        <input type="text" id="readonlyInput" name="readonlyInput" value="Can't modify this" readonly><br>
+
+        <!-- Email input with required -->
+        <label for="email">Email (required):</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+        <!-- Predefined value in input -->
+        <label for="favColor">Favorite Color (Predefined value):</label>
+        <input type="color" id="favColor" name="favColor" value="#ff0000"><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

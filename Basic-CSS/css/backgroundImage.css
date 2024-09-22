@@ -1,0 +1,15 @@
+.background-container {
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    background-image: url('../image/co.jpg'), url('../image/co1.jpg'), url('../image/co3.jpg');
+    background-position: top left, center center, bottom right;
+    background-size: 50% 50%, cover, contain; /* Sizes for each image */
+    background-repeat: no-repeat, no-repeat, no-repeat; /* Prevents repetition of images */
+}
+
+/* Optional: Ensure the container has some content and visibility */
+.background-container h1, .background-container p {
+    color: white;
+    text-align: center;
+    padding-top: 100px; /* Adjust as needed */
+}

@@ -1,0 +1,104 @@
+  /* Basic page styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px solid black; /* Black border for the table */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Hover effect for the table */
+table:hover {
+    background-color: #d0e0f0; /* Change to any color you like */
+}
+
+
+
+/* question 2 css */
+.hidden {
+    visibility: hidden;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+
+  .collapse {
+    visibility: collapse;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .contents {
+    display: contents;
+  }
+
+  .list-item {
+    display: list-item;
+  }
+
+
+
+
+  /* scroll */
+   /* Enable smooth scrolling */
+   html {
+    scroll-behavior: smooth;
+}
+
+/* Style for links */
+.scroll-link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.scroll-link.bottom {
+    bottom: 50px; /* Adjust position for bottom link */
+}
+
+/* Basic styling for content */
+.content {
+    height: 2000px; /* Make the page long */
+    padding: 20px;
+}
+
+
+
+/* padding vs margin */
+.box {
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 20px; /* Adds space inside the border */
+    margin: 30px;  /* Adds space outside the border */
+  }

@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Font Families */
+.font-family-arial {
+    font-family: Arial, sans-serif;
+}
+.font-family-times {
+    font-family: 'Times New Roman', serif;
+}
+.font-family-courier {
+    font-family: 'Courier New', monospace;
+}
+.font-family-georgia {
+    font-family: Georgia, serif;
+}
+.font-family-verdana {
+    font-family: Verdana, sans-serif;
+}
+
+/* Font Sizes */
+.font-size-small {
+    font-size: 12px;
+}
+.font-size-medium {
+    font-size: 16px;
+}
+.font-size-large {
+    font-size: 24px;
+}
+.font-size-xlarge {
+    font-size: 32px;
+}
+
+/* Font Styles */
+.font-style-normal {
+    font-style: normal;
+}
+.font-style-italic {
+    font-style: italic;
+}
+.font-style-oblique {
+    font-style: oblique;
+}
+.font-style-bold {
+    font-weight: bold;
+}
+.font-style-bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Text Alignments */
+.text-align-left {
+    text-align: left;
+}
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-align-justify {
+    text-align: justify;
+}
+
+/* Text Colors */
+.text-color-red {
+    color: red;
+}
+.text-color-blue {
+    color: blue;
+}
+.text-color-green {
+    color: green;
+}
+.text-color-purple {
+    color: purple;
+}
+.text-color-black {
+    color: black;
+}

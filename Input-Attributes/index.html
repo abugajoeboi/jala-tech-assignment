@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Elements</title>
+   
+</head>
+<body>
+
+    <h2>Sample Form with Input Elements</h2>
+
+    <form action="/submit" method="POST">
+
+        <!-- Text input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter username"><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <div class="options">
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+        </div>
+
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" name="terms"> I agree to the terms and conditions
+        </label>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset">
+
+        <!-- Button -->
+        <button type="button" onclick="alert('This is a regular button!')">Click Me</button>
+
+    </form>
+
+</body>
+</html>

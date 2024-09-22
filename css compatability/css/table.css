@@ -1,0 +1,25 @@
+.fixed {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid black;
+}
+.fixed th, .fixed td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Auto Table Layout */
+
+.auto {
+    table-layout: auto;
+    width: 100%;
+    border: 1px solid black;
+}
+.auto th, .auto td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
